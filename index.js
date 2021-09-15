@@ -18,7 +18,7 @@ fetch("https://official-joke-api.appspot.com/random_joke")
 console.log(data1);
 })
 .catch(function(err){
-    alert("Please wait! Something is wrong");
+    console.log(err);
 });
 
 //when the button is clicked this function is performed.
