@@ -26,3 +26,6 @@ console.log(data1);
 function display(){
    document.getElementsByClassName("ans")[0].innerHTML = answer;
 }
+function refresh(){
+    document.location.reload();
+}
